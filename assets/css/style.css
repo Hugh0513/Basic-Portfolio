@@ -1,0 +1,116 @@
+/* header {
+  	width: 100%;
+  	padding: 20px;
+  	margin-top: 0px;
+  	margin-bottom: 20px;
+  	margin-left: 0px;
+  	border-style: solid;
+  	border-color: #eee;
+}*/
+body {
+	background: #eee;
+}
+
+#header {
+	background: #ccc;
+}
+
+#space1 {
+	float: left;
+	/*width: 20%;*/
+	width: 20px;
+  	padding: 20px;
+  	margin-bottom: 20px;
+	width: 100px;
+	background: #fff;
+
+}
+
+#name {
+	float: left;
+	/*width: 30%;*/
+	width: 150px;
+	background: #666;
+	padding: 20px;
+	color: white;
+	border: #888;
+	text-align: center;
+}
+
+#space2{
+	float: left;
+	/*width: 10%;*/
+	width: 20px;
+  	padding: 20px;
+  	margin-bottom: 20px;
+	float: left;
+	width: 100px;
+	background: #fff;
+
+}
+#menuBar{ 
+	float: left;
+	/*width: 30%;*/
+	width: 20px;
+  	padding: 20px
+  	margin-bottom: 20px;
+  	padding: 20px;
+  	margin-bottom: 20px;
+	width: 200px;
+	background: #fff;
+
+}
+a {
+	text-decoration: none;
+}
+
+#space3{
+	float: left;
+	/*idth: 10%;*/
+  	padding: 20px;
+  	margin-bottom: 20px;
+	float: left;
+	width: 100px;
+	background: #fff;
+
+}
+
+#menu{
+	clear: both;
+	width: 3%;
+
+}
+
+#wrapper {
+	position: relative;
+	clear: both;
+	background-color: #eee;
+}
+
+#aboutMe {
+	position: absolute;
+	background: #fff;
+	padding: 20px;
+	margin: 10px;
+	top: 10;
+	left: 20px;
+}
+
+#contact {
+	position: absolute;
+	background: #fff;
+	padding: 20px;
+	margin: 10px;
+	top: 10;
+	right: 0;
+
+}
+
+img{
+	height: 30px;
+
+}
+
+.mine{
+	height: 100px;
+}
