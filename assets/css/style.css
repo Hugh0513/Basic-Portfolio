@@ -219,12 +219,15 @@ p.sub {
 
 
 .txtNimg{
+	float: left;
 	position: relative;
-	width: 200px;
+	width: 180px;
+	margin-right: 10px;
 }
 
 .txtNimg img {
-	width: 200px;
+	width: 180px;
+	
 }
 
 .txtNimg p {
