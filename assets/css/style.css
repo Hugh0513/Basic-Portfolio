@@ -8,9 +8,10 @@
   	border-color: #eee;
 }*/
 body {
-	background: #eee;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #979A9A;
+    color: #777777;
+	background-image: url('../images/white_sand.png');
+	/*background: #ddd;*/
 }
 
 a {
@@ -23,11 +24,11 @@ a {
 }*/
 
 h1 {
-    font-family: "Times New Roman", Times, serif;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 h3 {
-    font-family: "Times New Roman", Times, serif;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 
@@ -44,7 +45,7 @@ header {
 
   	border-style: solid;
   	border-width: thin;
-  	border-color: #ccc;
+  	border-color: #dddddd;
 }
 
 #myName {
@@ -53,7 +54,7 @@ header {
 	width: 250px;
 	height: 40px;
 	padding: 20px;
-	background: #979A9A;
+	background: #4aaaa5;
   	top: 0;
   	margin-left: 100px;
   	margin-bottom: 0;
@@ -70,10 +71,6 @@ header {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-/*#name:after {
-	clear: both;
-}*/
-
 #menuBar {
 	float: right;
 	font-size: small;
@@ -89,7 +86,6 @@ content {
 	padding: 20px;
 }
 
-
 #aboutMe {
 	/*position: relative;*/
 	float:left;
@@ -103,7 +99,7 @@ content {
 
   	border-style: solid;
   	border-width: thin;
-  	border-color: #ccc;
+  	border-color: #dddddd;
 }
 
 img.mine {
@@ -127,7 +123,7 @@ img.mine {
 
   	border-style: solid;
   	border-width: thin;
-  	border-color: #ccc;
+  	border-color: #dddddd;
 
 }
 
@@ -145,7 +141,7 @@ footer {
   	width: 100%;
   	padding: 20px;
 	text-align: center;
-	background: #454545;
+	background: #666666;
 	bottom: 0;
 	left: 0;
 
@@ -174,7 +170,7 @@ p.copy {
 
   	border-style: solid;
   	border-width: thin;
-  	border-color: #ccc;
+  	border-color: #dddddd;
 
 }
 
@@ -213,7 +209,7 @@ p.sub {
 
   	border-style: solid;
   	border-width: thin;
-  	border-color: #ccc;
+  	border-color: #dddddd;
 
 }
 
@@ -226,8 +222,16 @@ p.sub {
 }
 
 .txtNimg img {
-	width: 180px;
-	
+	/*width: 180px;*/
+  /*position: absolute;*/
+  /*top: 50%;
+  left: 50%;*/
+  /*-webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);*/
+  	width: 180px;
+  	height: 100px;
+	/*overflow: hidden;*/
 }
 
 .txtNimg p {
