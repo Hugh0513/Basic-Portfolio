@@ -72,8 +72,9 @@ content {
 }
 
 footer {
-	/*position: fixed;*/
+	position: fixed;
   	width: 100%;
+  	height: 60px;
   	padding: 20px;
 	text-align: center;
 	background: #666666;
@@ -81,7 +82,7 @@ footer {
 	left: 0;*/
 
   	border-top: 5px solid #cccccc;
-	position: absolute;
+	/*position: absolute;*/
 	bottom: 0;
 
 	/*margin-bottom: 0;*/
@@ -216,13 +217,18 @@ form {
 }
 
 input {
-	width: 400px;
-	height: 20px;
+	width: 600px;
+	height: 30px;
 	border: 1px solid #eee;
+}
+input.sub{
+	width: 100px;
+	color: #fff;
+	font-size: 15px;
 }
 
 textarea {
-	width: 400px;
+	width: 600px;
 	height: 200px;
 	
 	border: 1px solid #eee;
